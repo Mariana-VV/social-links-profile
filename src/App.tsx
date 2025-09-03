@@ -11,8 +11,6 @@ function App() {
     getData().then(setProfiles);
   }, []);
 
-  console.log(profiles[0]);
-
   return (
     <article className="profile">
       <div className="profile__image">
