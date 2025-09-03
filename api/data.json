@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "photo": "../public/assets/images/profile-pic.png",
+    "photo": "assets/images/profile-pic.png",
     "name": "Jessica Randall",
     "country": "London, United Kingdom",
     "description": "\"Front-end developer and avid reader.\"",
