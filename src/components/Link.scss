@@ -1,0 +1,30 @@
+@import "../App.scss";
+
+.link {
+  display: block;
+  width: 304px;
+  height: 45px;
+  padding: 12px;
+  text-align: center;
+  background: $light-grey;
+  margin-bottom: 16px;
+
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.link:hover {
+  background: $accent-color;
+  color: $middle-grey;
+}
+
+.link::last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .link {
+    width: 279px;
+    height: 45px;
+  }
+}

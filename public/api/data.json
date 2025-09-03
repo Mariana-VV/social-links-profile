@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "photo": "../public/assets/images/profile-pic.png",
+    "name": "Jessica Randall",
+    "country": "London, United Kingdom",
+    "description": "\"Front-end developer and avid reader.\"",
+    "links": [
+      { "name": "GitHub", "link": "https://github.com" },
+      { "name": "Frontend Mentor", "link": "https://www.frontendmentor.io" },
+
+      { "name": "LinkedIn", "link": "https://www.linkedin.com" },
+
+      { "name": "Twitter", "link": "https://x.com" },
+
+      { "name": "Instagram", "link": "https://www.instagram.com" }
+    ]
+  }
+]

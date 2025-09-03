@@ -1,0 +1,77 @@
+$main-grey: #141414;
+$middle-grey: #1f1f1f;
+$light-grey: #333333;
+$accent-color: #c4f82a;
+$white-color: #fff;
+
+@font-face {
+  font-family: InterRegular;
+  src: url("public/assets/fonts/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url("public/assets/fonts/Inter_18pt-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: $main-grey;
+  font-family: InterBold, sans-serif;
+  font-size: 14px;
+  color: $white-color;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  padding: 40px;
+  height: 611px;
+  width: 384px;
+  background: $middle-grey;
+
+  text-align: center;
+
+  &__image {
+    margin-bottom: 24px;
+  }
+
+  &__name {
+    margin-bottom: 4px;
+    font-size: 24px;
+  }
+
+  &__country {
+    margin-bottom: 24px;
+    color: $accent-color;
+  }
+
+  &__description {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding: 24px;
+    height: 579px;
+    width: 327px;
+  }
+}
