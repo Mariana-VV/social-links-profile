@@ -51,16 +51,18 @@ body {
   height: 611px;
   width: 384px;
   background: $middle-grey;
+  border-radius: 12px;
 
   text-align: center;
 
   &__image {
+    margin: 0 auto;
     margin-bottom: 24px;
     width: 88px;
     height: 88px;
 
     & {
-      width: 100%;
+      object-fit: contain;
     }
   }
 
