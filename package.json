@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "homepage": "https://mariana-vv.github.io/",
+    "homepage": "https://mariana-vv.github.io/social-links-profile/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
