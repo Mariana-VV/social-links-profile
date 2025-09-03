@@ -56,6 +56,12 @@ body {
 
   &__image {
     margin-bottom: 24px;
+    width: 88px;
+    height: 88px;
+
+    & {
+      width: 100%;
+    }
   }
 
   &__name {
